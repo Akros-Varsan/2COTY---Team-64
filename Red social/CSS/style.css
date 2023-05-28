@@ -1,0 +1,212 @@
+/* Estilos generales */
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	padding: 0;
+}
+
+header {
+	height: 10vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+}
+
+header #logo {
+	height: 10vh;
+	width: 10vh;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+header #logo img {
+	height: 100%;
+	object-fit: cover;
+}
+
+header .menu {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+header .menu ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+header .menu ul li {
+	list-style: none;
+	margin-right: 10px;
+}
+
+header .menu ul li a {
+	background: #056e65;
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+header .menu ul li a:hover {
+	background: #274f27;
+	color: #fff;
+}
+
+/* Estilos del perfil */
+#Profile {
+  height: 30vh; /* Altura del perfil como el 40% de la altura de la ventana */
+  margin: 20px 0px; /* Márgenes superiores e inferiores de 20px y margen izquierdo y derecho de 0px */
+  justify-content: center;
+}
+
+#Profile img {
+  height: 30vh; /* Altura de la imagen del perfil como el 40% de la altura del perfil */
+  float: left; /* Imagen del perfil flotante a la izquierda */
+  margin-left: 200px;
+  border-radius: 50%;
+}
+
+#Profile h1 {
+  font-size: 3.1rem; /* Tamaño de fuente del título del perfil de 3.1 rem (tamaño relativo) */
+  color: #056e65; /* Color del texto del título del perfil */
+  vertical-align: center;
+  text-align: center; /* Alineación del texto centrada */
+}
+
+#Profile p {
+  color: #056e65; /* Color del texto del párrafo del perfil */
+  margin-top: 50px;
+  text-align: center; /* Alineación del texto centrada */
+}
+
+#Friends {
+ width: 100%;
+  overflow: hidden;
+  border: 0px solid;
+  margin: 20px auto; /* Centra el contenedor */
+  text-align: center;
+  justify-content: center; /* Centra las subsecciones horizontalmente */
+}
+
+#Friends .friend {
+	display: inline-block;
+	width: 25%;
+	margin: 10px;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #056e65;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#Pictures {
+  width: 100%;
+  overflow: hidden;
+  border: 0px solid;
+  margin: 20px auto; /* Centra el contenedor */
+  text-align: center;
+  justify-content: center; /* Centra las subsecciones horizontalmente */
+}
+
+#Pictures .picture {
+	display: inline-block;
+	width: 25%;
+	margin: 10px;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #056e65;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#Subsections {
+  width: 100%;
+  max-width: 900px;
+  overflow: hidden;
+  border: 0px solid;
+  margin: 20px auto; /* Centra el contenedor */
+  text-align: center;
+  justify-content: center; /* Centra las subsecciones horizontalmente */
+}
+
+#Subsections .Subsection {
+  display: inline-block;
+	width: 30%;
+	margin: 10px;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #056e65;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#Subsections .Subsection img {
+  height: 150px;
+  margin-top: 20px; /* Ajusta el margen superior según tus preferencias para dejar espacio para el título */
+  border-radius: 50%;
+}
+
+#Subsections .Subsection h2 {
+  margin-top: 10px; /* Ajusta el margen superior según tus preferencias */
+  font-size: 1.8rem;
+  color: #056e65;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	#Friends .friend,
+	#Pictures .picture,
+	#Subsections .Subsection, {
+		width: 100%;
+	}
+}
+
+.button {
+  text-decoration: none; /* Quita la decoración de texto subrayado */
+  border: 1px solid #2d2f38; /* Borde de 1px sólido de color gris */
+  padding: 10px 20px; /* Espaciado interno de 10px arriba y abajo, 20px izquierda y derecha */
+}
+
+.button:hover {
+  background: #2d2f38; /* Color de fondo del botón al pasar el cursor */
+  color: #fff; /* Color del texto en blanco al pasar el cursor */
+}
+
+footer {
+  height: 4vh;
+  width: 100%;
+  max-width: 900px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 20px;
+  clear: both;
+}
+
+#Form {
+  width: 432px;
+  height: auto;
+  overflow: hidden;
+  padding: 100px;
+  float: left;
+}
+
+#Form2 {
+  width: 432px;
+  height: auto;
+  overflow: hidden;
+  padding: 100px;
+  float: right;
+}
